@@ -1,0 +1,55 @@
+{
+  "modmenu.descriptionTranslation.xperience-xpanded": "A Vanilla+ Minecraft mod focused on experience, enchanting, and related quality-of-life improvements.",
+  "modmenu.summaryTranslation.xperience-xpanded": "Experience, enchanting, and quality-of-life improvements.",
+
+  "xperience-xpanded.config": "Mia's XPerience XPanded",
+
+  "xperience-xpanded.config.experienceProgression": "Experience Progression",
+  "xperience-xpanded.config.experienceRetention": "Experience Retention",
+  "xperience-xpanded.config.experienceSources": "Experience Sources",
+  "xperience-xpanded.config.experienceBottles": "Bottles o' Enchanting",
+  "xperience-xpanded.config.anvilImprovements": "Anvil Improvements",
+  "xperience-xpanded.config.experienceQualityOfLife": "Experience Quality of Life",
+  "xperience-xpanded.config.renewableResources": "Renewable Resources",
+  "xperience-xpanded.config.villagerTrades": "Villager Trades",
+
+  "xperience-xpanded.config.constantXpPerLevel": "Constant XP Per Level",
+  "xperience-xpanded.config.constantXpPerLevel.desc": "Replaces the vanilla experience curve with a constant amount of XP required to advance each level.",
+  "xperience-xpanded.config.xpRequiredPerLevel": "XP Required Per Level",
+  "xperience-xpanded.config.xpRequiredPerLevel.desc": "The amount of XP required to gain each level when the constant XP curve is enabled.",
+
+  "xperience-xpanded.config.retainXpOnDeath": "Retain XP on Death",
+  "xperience-xpanded.config.retainXpOnDeath.desc": "Allows players to retain some or all of their experience after dying.",
+  "xperience-xpanded.config.retainedXpPercentage": "Retained XP Percentage",
+  "xperience-xpanded.config.retainedXpPercentage.desc": "The percentage of total experience retained after death, from 10% to 100%.",
+
+  "xperience-xpanded.config.xpFromBreakingMatureCrops": "XP from Mature Crops",
+  "xperience-xpanded.config.xpFromBreakingMatureCrops.desc": "Grants experience when breaking fully grown crops, including Nether Wart.",
+  "xperience-xpanded.config.xpPerMatureCrop": "XP Per Mature Crop",
+  "xperience-xpanded.config.xpPerMatureCrop.desc": "The amount of experience awarded for breaking a fully grown crop.",
+
+  "xperience-xpanded.config.allowXpBottleBrewing": "Brewable Bottles o' Enchanting",
+  "xperience-xpanded.config.allowXpBottleBrewing.desc": "Allows Bottles o' Enchanting to be obtained through brewing.",
+  "xperience-xpanded.config.useFixedXpBottleReward": "Fixed Bottle XP Reward",
+  "xperience-xpanded.config.useFixedXpBottleReward.desc": "Makes Bottles o' Enchanting grant a fixed amount of experience instead of a random amount.",
+  "xperience-xpanded.config.xpPerExperienceBottle": "XP Per Bottle",
+  "xperience-xpanded.config.xpPerExperienceBottle.desc": "The amount of experience awarded by each Bottle o' Enchanting when fixed rewards are enabled.",
+
+  "xperience-xpanded.config.removeAnvilTooExpensiveLimit": "Remove Anvil Cost Limit",
+  "xperience-xpanded.config.removeAnvilTooExpensiveLimit.desc": "Removes the maximum level cost restriction that normally prevents expensive anvil operations.",
+  "xperience-xpanded.config.removeAnvilPriorWorkPenalty": "Remove Prior Work Penalty",
+  "xperience-xpanded.config.removeAnvilPriorWorkPenalty.desc": "Prevents previous anvil operations from increasing the experience cost of subsequent operations.",
+
+  "xperience-xpanded.config.mendingPrefersHighestDamagePercent": "Smart Mending",
+  "xperience-xpanded.config.mendingPrefersHighestDamagePercent.desc": "Prioritizes repairing the Mending-equipped item with the highest percentage of missing durability.",
+  "xperience-xpanded.config.xpOrbAttractionRange": "XP Orb Attraction Range",
+  "xperience-xpanded.config.xpOrbAttractionRange.desc": "The maximum distance, in blocks, at which experience orbs are attracted to players.",
+
+  "xperience-xpanded.config.enableEchoShardCrafting": "Craftable Echo Shards",
+  "xperience-xpanded.config.enableEchoShardCrafting.desc": "Enables a crafting recipe for Echo Shards, making them renewable.",
+  "xperience-xpanded.config.allowSilkTouchBuddingAmethyst": "Silk Touch Budding Amethyst",
+  "xperience-xpanded.config.allowSilkTouchBuddingAmethyst.desc": "Allows Budding Amethyst blocks to be collected using a tool enchanted with Silk Touch.",
+
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards": "Cleric Echo Shard Trade",
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Replaces the master-level Cleric's Bottle o' Enchanting trade with an Echo Shard trade."
+}

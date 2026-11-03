@@ -1,0 +1,63 @@
+{
+  "modmenu.descriptionTranslation.xperience-xpanded": "Un mod de Minecraft de estilo Vanilla+ centrado en la experiencia, los encantamientos y diversas mejoras de calidad de vida.",
+  "modmenu.summaryTranslation.xperience-xpanded": "Mejoras de experiencia, encantamientos y calidad de vida.",
+
+  "xperience-xpanded.config": "Mia's XPerience XPanded",
+
+  "xperience-xpanded.config.experienceProgression": "Progresión de experiencia",
+  "xperience-xpanded.config.experienceRetention": "Conservación de experiencia",
+  "xperience-xpanded.config.experienceSources": "Fuentes de experiencia",
+  "xperience-xpanded.config.experienceBottles": "Frascos con experiencia",
+  "xperience-xpanded.config.anvilImprovements": "Mejoras de los yunques",
+  "xperience-xpanded.config.experienceQualityOfLife": "Mejoras de experiencia",
+  "xperience-xpanded.config.renewableResources": "Recursos renovables",
+  "xperience-xpanded.config.villagerTrades": "Intercambios con aldeanos",
+
+  "xperience-xpanded.config.constantXpPerLevel": "Experiencia constante por nivel",
+  "xperience-xpanded.config.constantXpPerLevel.desc": "Reemplaza la curva de experiencia original por una cantidad fija de experiencia necesaria para subir cada nivel.",
+
+  "xperience-xpanded.config.xpRequiredPerLevel": "Experiencia necesaria por nivel",
+  "xperience-xpanded.config.xpRequiredPerLevel.desc": "Cantidad de experiencia necesaria para subir de nivel cuando la progresión constante está habilitada.",
+
+  "xperience-xpanded.config.retainXpOnDeath": "Conservar experiencia al morir",
+  "xperience-xpanded.config.retainXpOnDeath.desc": "Permite conservar parte o toda la experiencia después de morir.",
+
+  "xperience-xpanded.config.retainedXpPercentage": "Porcentaje de experiencia conservada",
+  "xperience-xpanded.config.retainedXpPercentage.desc": "Porcentaje de la experiencia total que se conserva al morir, entre un 10 % y un 100 %.",
+
+  "xperience-xpanded.config.xpFromBreakingMatureCrops": "Experiencia al cosechar",
+  "xperience-xpanded.config.xpFromBreakingMatureCrops.desc": "Otorga experiencia al romper cultivos completamente desarrollados, incluidas las verrugas del Nether.",
+
+  "xperience-xpanded.config.xpPerMatureCrop": "Experiencia por cultivo",
+  "xperience-xpanded.config.xpPerMatureCrop.desc": "Cantidad de experiencia obtenida al romper un cultivo completamente desarrollado.",
+
+  "xperience-xpanded.config.allowXpBottleBrewing": "Preparar frascos con experiencia",
+  "xperience-xpanded.config.allowXpBottleBrewing.desc": "Permite obtener frascos con experiencia mediante la preparación de pociones.",
+
+  "xperience-xpanded.config.useFixedXpBottleReward": "Experiencia fija por frasco",
+  "xperience-xpanded.config.useFixedXpBottleReward.desc": "Hace que los frascos con experiencia otorguen una cantidad fija de experiencia en lugar de una cantidad aleatoria.",
+
+  "xperience-xpanded.config.xpPerExperienceBottle": "Experiencia por frasco",
+  "xperience-xpanded.config.xpPerExperienceBottle.desc": "Cantidad de experiencia otorgada por cada frasco cuando la recompensa fija está habilitada.",
+
+  "xperience-xpanded.config.removeAnvilTooExpensiveLimit": "Eliminar límite de coste del yunque",
+  "xperience-xpanded.config.removeAnvilTooExpensiveLimit.desc": "Elimina el límite de niveles que normalmente impide realizar operaciones demasiado costosas en los yunques.",
+
+  "xperience-xpanded.config.removeAnvilPriorWorkPenalty": "Eliminar penalización por trabajos previos",
+  "xperience-xpanded.config.removeAnvilPriorWorkPenalty.desc": "Evita que los trabajos anteriores realizados sobre un objeto incrementen el coste de las operaciones posteriores en el yunque.",
+
+  "xperience-xpanded.config.mendingPrefersHighestDamagePercent": "Reparación inteligente",
+  "xperience-xpanded.config.mendingPrefersHighestDamagePercent.desc": "Prioriza la reparación del objeto con el encantamiento Reparación que tenga el mayor porcentaje de durabilidad perdida.",
+
+  "xperience-xpanded.config.xpOrbAttractionRange": "Alcance de atracción de experiencia",
+  "xperience-xpanded.config.xpOrbAttractionRange.desc": "Distancia máxima, en bloques, desde la que los orbes de experiencia son atraídos hacia los jugadores.",
+
+  "xperience-xpanded.config.enableEchoShardCrafting": "Fragmentos de eco fabricables",
+  "xperience-xpanded.config.enableEchoShardCrafting.desc": "Habilita una receta de fabricación para los fragmentos de eco, convirtiéndolos en un recurso renovable.",
+
+  "xperience-xpanded.config.allowSilkTouchBuddingAmethyst": "Amatista en ciernes con Toque de Seda",
+  "xperience-xpanded.config.allowSilkTouchBuddingAmethyst.desc": "Permite obtener bloques de amatista en ciernes utilizando una herramienta con el encantamiento Toque de Seda.",
+
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards": "Intercambio de fragmentos de eco",
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Reemplaza el intercambio de frascos con experiencia de los clérigos de nivel maestro por uno de fragmentos de eco."
+}
