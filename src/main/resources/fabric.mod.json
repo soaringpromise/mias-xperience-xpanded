@@ -3,28 +3,21 @@
 	"id": "xperience-xpanded",
 	"version": "${version}",
 	"name": "Mia's XPerience XPanded",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Vanilla+ Minecraft mod focused on experience, enchanting, and related quality-of-life improvements.",
 	"authors": [
-		"Me!"
+		"soaringpromise (Mia)"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/xperience-xpanded/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.soaringpromise.mxx.MiaSXPerienceXPanded"
+			"net.soaringpromise.mxx.MXX"
 		],
 		"fabric-datagen": [
-			"net.soaringpromise.mxx.MiaSXPerienceXPandedDataGenerator"
+			"net.soaringpromise.mxx.MXXDataGenerator"
 		]
 	},
-	"mixins": [
-		"xperience-xpanded.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.20.1",
 		"minecraft": "~26.1.2",
