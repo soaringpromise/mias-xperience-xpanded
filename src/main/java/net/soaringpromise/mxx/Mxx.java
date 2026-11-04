@@ -18,6 +18,9 @@ public final class Mxx implements ModInitializer {
 	public void onInitialize() {
 		ModConfigs.register();
 
+		ModDataComponents.register();
+		ModItems.register();
+
 		ModEffects.register();
 		ModPotions.register();
 		ModResourceConditions.register();

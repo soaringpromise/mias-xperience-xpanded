@@ -78,5 +78,9 @@
 
   "item.minecraft.tipped_arrow.effect.wisdom": "Flecha de sabiduría",
   "item.minecraft.tipped_arrow.effect.long_wisdom": "Flecha de sabiduría",
-  "item.minecraft.tipped_arrow.effect.strong_wisdom": "Flecha de sabiduría"
+  "item.minecraft.tipped_arrow.effect.strong_wisdom": "Flecha de sabiduría",
+
+  "item.xperience-xpanded.catalyzed_experience_bottle": "Frasco con experiencia catalizada",
+  "tooltip.xperience-xpanded.catalyzed_experience_bottle.flavor": "Es incómodamente espesa.",
+  "tooltip.xperience-xpanded.catalyzed_experience_bottle.stored_xp": "XP almacenada: %s"
 }

@@ -8,6 +8,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.soaringpromise.mxx.registry.ModConfigs;
 import net.soaringpromise.mxx.registry.ModEffects;
+import net.soaringpromise.mxx.util.ExperienceTransfer;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
@@ -27,7 +28,7 @@ public abstract class PlayerMixin extends LivingEntity {
 
     @ModifyVariable(method = "giveExperiencePoints", at = @At("HEAD"), argsOnly = true, name = "i")
     private int xperiencexpanded$applyWisdomEffect(int i) {
-        if (i <= 0) return i;
+        if (i <= 0 || ExperienceTransfer.isRestoring()) return i;
         MobEffectInstance wisdom = this.getEffect(ModEffects.WISDOM_EFFECT);
 
         if (wisdom == null) return i;

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "C": "minecraft:sculk_catalyst",
+    "a": "minecraft:amethyst_shard",
+    "b": "minecraft:experience_bottle"
+  },
+  "result": {
+    "id": "xperience-xpanded:catalyzed_experience_bottle",
+    "count": 1
+  }
+}

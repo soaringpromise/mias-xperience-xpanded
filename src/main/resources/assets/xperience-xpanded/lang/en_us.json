@@ -78,5 +78,9 @@
 
   "item.minecraft.tipped_arrow.effect.wisdom": "Arrow of Wisdom",
   "item.minecraft.tipped_arrow.effect.long_wisdom": "Arrow of Wisdom",
-  "item.minecraft.tipped_arrow.effect.strong_wisdom": "Arrow of Wisdom"
+  "item.minecraft.tipped_arrow.effect.strong_wisdom": "Arrow of Wisdom",
+
+  "item.xperience-xpanded.catalyzed_experience_bottle": "Catalyzed Bottle o' Enchanting",
+  "tooltip.xperience-xpanded.catalyzed_experience_bottle.flavor": "It's uncomfortably thick.",
+  "tooltip.xperience-xpanded.catalyzed_experience_bottle.stored_xp": "Stored XP: %s"
 }
