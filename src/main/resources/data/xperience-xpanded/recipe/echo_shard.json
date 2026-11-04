@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SAS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:sculk",
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 2
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "xperience-xpanded:feature_enabled",
+      "feature": "renewable_echo_shards"
+    }
+  ]
+}

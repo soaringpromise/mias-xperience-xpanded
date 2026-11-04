@@ -59,5 +59,24 @@
   "xperience-xpanded.config.allowSilkTouchBuddingAmethyst.desc": "Permite obtener bloques de amatista en ciernes utilizando una herramienta con el encantamiento Toque de Seda.",
 
   "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards": "Intercambio de fragmentos de eco",
-  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Reemplaza el intercambio de frascos con experiencia de los clérigos de nivel maestro por uno de fragmentos de eco."
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Reemplaza el intercambio de frascos con experiencia de los clérigos de nivel maestro por uno de fragmentos de eco.",
+
+  "effect.xperience-xpanded.wisdom": "Sabiduría",
+  "effect.xperience-xpanded.wisdom.description": "Sientes cómo se expande tu mente",
+
+  "item.minecraft.potion.effect.wisdom": "Poción de sabiduría",
+  "item.minecraft.potion.effect.long_wisdom": "Poción de sabiduría",
+  "item.minecraft.potion.effect.strong_wisdom": "Poción de sabiduría",
+
+  "item.minecraft.splash_potion.effect.wisdom": "Poción arrojadiza de sabiduría",
+  "item.minecraft.splash_potion.effect.long_wisdom": "Poción arrojadiza de sabiduría",
+  "item.minecraft.splash_potion.effect.strong_wisdom": "Poción arrojadiza de sabiduría",
+
+  "item.minecraft.lingering_potion.effect.wisdom": "Poción persistente de sabiduría",
+  "item.minecraft.lingering_potion.effect.long_wisdom": "Poción persistente de sabiduría",
+  "item.minecraft.lingering_potion.effect.strong_wisdom": "Poción persistente de sabiduría",
+
+  "item.minecraft.tipped_arrow.effect.wisdom": "Flecha de sabiduría",
+  "item.minecraft.tipped_arrow.effect.long_wisdom": "Flecha de sabiduría",
+  "item.minecraft.tipped_arrow.effect.strong_wisdom": "Flecha de sabiduría"
 }

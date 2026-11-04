@@ -5,7 +5,7 @@ import me.fzzyhmstrs.fzzy_config.config.ConfigGroup;
 import me.fzzyhmstrs.fzzy_config.validation.misc.ValidatedBoolean;
 import me.fzzyhmstrs.fzzy_config.validation.number.ValidatedDouble;
 import me.fzzyhmstrs.fzzy_config.validation.number.ValidatedInt;
-import net.soaringpromise.mxx.MXX;
+import net.soaringpromise.mxx.Mxx;
 
 public class GameplayConfig extends Config {
 
@@ -73,6 +73,6 @@ public class GameplayConfig extends Config {
     public ValidatedBoolean replaceClericXpBottleTradeWithEchoShards = new ValidatedBoolean(true);
 
     public GameplayConfig() {
-        super(MXX.id("config"));
+        super(Mxx.id("config"));
     }
 }

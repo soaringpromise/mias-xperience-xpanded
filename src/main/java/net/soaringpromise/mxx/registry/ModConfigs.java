@@ -1,7 +1,7 @@
 package net.soaringpromise.mxx.registry;
 
 import me.fzzyhmstrs.fzzy_config.api.ConfigApiJava;
-import net.soaringpromise.mxx.MXX;
+import net.soaringpromise.mxx.Mxx;
 import net.soaringpromise.mxx.config.GameplayConfig;
 
 public final class ModConfigs {
@@ -12,6 +12,6 @@ public final class ModConfigs {
     }
 
     public static void register() {
-        MXX.LOGGER.info("{}: initializing and loading configuration.", MXX.MOD_NAME);
+        Mxx.LOGGER.info("{}: initializing and loading configuration.", Mxx.MOD_NAME);
     }
 }

@@ -51,5 +51,24 @@
   "xperience-xpanded.config.allowSilkTouchBuddingAmethyst.desc": "Allows Budding Amethyst blocks to be collected using a tool enchanted with Silk Touch.",
 
   "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards": "Cleric Echo Shard Trade",
-  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Replaces the master-level Cleric's Bottle o' Enchanting trade with an Echo Shard trade."
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Replaces the master-level Cleric's Bottle o' Enchanting trade with an Echo Shard trade.",
+
+  "effect.xperience-xpanded.wisdom": "Wisdom",
+  "effect.xperience-xpanded.wisdom.description": "You can feel your brain expanding",
+
+  "item.minecraft.potion.effect.wisdom": "Potion of Wisdom",
+  "item.minecraft.potion.effect.long_wisdom": "Potion of Wisdom",
+  "item.minecraft.potion.effect.strong_wisdom": "Potion of Wisdom",
+
+  "item.minecraft.splash_potion.effect.wisdom": "Splash Potion of Wisdom",
+  "item.minecraft.splash_potion.effect.long_wisdom": "Splash Potion of Wisdom",
+  "item.minecraft.splash_potion.effect.strong_wisdom": "Splash Potion of Wisdom",
+
+  "item.minecraft.lingering_potion.effect.wisdom": "Lingering Potion of Wisdom",
+  "item.minecraft.lingering_potion.effect.long_wisdom": "Lingering Potion of Wisdom",
+  "item.minecraft.lingering_potion.effect.strong_wisdom": "Lingering Potion of Wisdom",
+
+  "item.minecraft.tipped_arrow.effect.wisdom": "Arrow of Wisdom",
+  "item.minecraft.tipped_arrow.effect.long_wisdom": "Arrow of Wisdom",
+  "item.minecraft.tipped_arrow.effect.strong_wisdom": "Arrow of Wisdom"
 }
