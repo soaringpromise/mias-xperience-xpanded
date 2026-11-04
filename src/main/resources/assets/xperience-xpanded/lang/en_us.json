@@ -40,6 +40,14 @@
   "xperience-xpanded.config.removeAnvilPriorWorkPenalty": "Remove Prior Work Penalty",
   "xperience-xpanded.config.removeAnvilPriorWorkPenalty.desc": "Prevents previous anvil operations from increasing the experience cost of subsequent operations.",
 
+  "xperience-xpanded.config.grindstoneImprovements": "Grindstone Improvements",
+  "xperience-xpanded.config.grindstoneXpMultiplier": "Grindstone XP Multiplier",
+  "xperience-xpanded.config.grindstoneXpMultiplier.desc": "Multiplies the experience recovered when removing enchantments with a Grindstone. Rewards are no longer randomized.",
+  "xperience-xpanded.config.allowGrindstoneCurseRemoval": "Allow Curse Removal",
+  "xperience-xpanded.config.allowGrindstoneCurseRemoval.desc": "Allows Grindstones to remove curse enchantments from items.",
+  "xperience-xpanded.config.grindstoneCurseXpMultiplier": "Curse Removal XP Multiplier",
+  "xperience-xpanded.config.grindstoneCurseXpMultiplier.desc": "Additional XP multiplier applied when removing curses. A value of 0.5 reduces the total reward by 50%.",
+
   "xperience-xpanded.config.mendingPrefersHighestDamagePercent": "Smart Mending",
   "xperience-xpanded.config.mendingPrefersHighestDamagePercent.desc": "Prioritizes repairing the Mending-equipped item with the highest percentage of missing durability.",
   "xperience-xpanded.config.xpOrbAttractionRange": "XP Orb Attraction Range",

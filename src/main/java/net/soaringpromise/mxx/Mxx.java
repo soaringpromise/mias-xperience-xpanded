@@ -2,7 +2,7 @@ package net.soaringpromise.mxx;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
-import net.soaringpromise.mxx.event.CropEvents;
+import net.soaringpromise.mxx.event.BlockXpEvents;
 import net.soaringpromise.mxx.event.LootEvents;
 import net.soaringpromise.mxx.event.PlayerEvents;
 import net.soaringpromise.mxx.registry.*;
@@ -23,7 +23,7 @@ public final class Mxx implements ModInitializer {
 		ModResourceConditions.register();
 		ModPayloads.register();
 
-		CropEvents.register();
+		BlockXpEvents.register();
 		PlayerEvents.register();
 		LootEvents.register();
 

@@ -1,26 +1,28 @@
 {
-	"required": true,
-	"package": "net.soaringpromise.mxx.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-		"common.AbstractVillagerMixin",
-		"common.AnvilMenuMixin",
-		"common.ExperienceBottleMixin",
-		"common.ExperienceOrbMixin",
-		"common.PlayerMixin",
-		"common.PotionBrewingMixin",
-		"common.ServerPlayerMixin"
-	],
-	"client": [
-		"client.AnvilScreenMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	},
-	"mixinextras": {
-		"minVersion": "0.5.5"
+  "required": true,
+  "package": "net.soaringpromise.mxx.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "common.AbstractVillagerMixin",
+    "common.AnvilMenuMixin",
+    "common.ExperienceBottleMixin",
+    "common.ExperienceOrbMixin",
+    "common.GrindstoneMenuMixin",
+    "common.GrindstoneResultSlotMixin",
+    "common.PlayerMixin",
+    "common.PotionBrewingMixin",
+    "common.ServerPlayerMixin"
+  ],
+  "client": [
+    "client.AnvilScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "mixinextras": {
+    "minVersion": "0.5.5"
 	}
 }
