@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_experience_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:experience_bottle"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "xperience-xpanded:catalyzed_experience_bottle"
+    ]
+  }
+}

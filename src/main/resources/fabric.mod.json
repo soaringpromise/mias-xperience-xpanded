@@ -14,9 +14,6 @@
 		"main": [
 			"net.soaringpromise.mxx.Mxx"
 		],
-		"client": [
-			"net.soaringpromise.mxx.MxxClient"
-		],
 		"fabric-datagen": [
 			"net.soaringpromise.mxx.MxxDataGenerator"
 		]

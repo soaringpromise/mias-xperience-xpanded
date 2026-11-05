@@ -1,21 +1,12 @@
 package net.soaringpromise.mxx.event;
 
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
-import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
-import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.gamerules.GameRules;
-import net.soaringpromise.mxx.network.SyncConfigPayload;
 import net.soaringpromise.mxx.registry.ModConfigs;
 
 public final class PlayerEvents {
     public static void register() {
-        ServerPlayConnectionEvents.JOIN.register(((listener, _, _) ->
-                ServerPlayNetworking.send(
-                listener.player,
-                new SyncConfigPayload(ModConfigs.GAMEPLAY.removeAnvilTooExpensiveLimit.get())
-        )));
-
         ServerPlayerEvents.AFTER_RESPAWN.register((oldPlayer, newPlayer, alive) -> {
             if (alive) return;
             if (oldPlayer.level().getGameRules().get(GameRules.KEEP_INVENTORY)) return;

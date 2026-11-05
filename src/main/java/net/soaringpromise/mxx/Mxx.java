@@ -24,7 +24,6 @@ public final class Mxx implements ModInitializer {
 		ModEffects.register();
 		ModPotions.register();
 		ModResourceConditions.register();
-		ModPayloads.register();
 
 		BlockXpEvents.register();
 		PlayerEvents.register();

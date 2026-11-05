@@ -2,7 +2,7 @@ package net.soaringpromise.mxx.mixin.client;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import net.minecraft.client.gui.screens.inventory.AnvilScreen;
-import net.soaringpromise.mxx.client.ClientConfigState;
+import net.soaringpromise.mxx.registry.ModConfigs;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.At;
 public abstract class AnvilScreenMixin {
     @ModifyExpressionValue(method = "extractLabels", at = @At(value = "CONSTANT", args = "intValue=40"))
     private int xperiencexpanded$modifyClientSideCap(int original) {
-        return ClientConfigState.removeAnvilTooExpensiveLimit
+        return ModConfigs.GAMEPLAY.removeAnvilTooExpensiveLimit.get()
                 ? Integer.MAX_VALUE
                 : original;
     }
