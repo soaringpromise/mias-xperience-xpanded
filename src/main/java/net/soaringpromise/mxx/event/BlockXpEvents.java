@@ -3,6 +3,7 @@ package net.soaringpromise.mxx.event;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.ExperienceOrb;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.NetherWartBlock;
@@ -26,7 +27,8 @@ public final class BlockXpEvents {
             }
 
             if (xp > 0) {
-                ExperienceOrb.award(serverLevel, pos.getCenter(), xp);
+                int finalXp = EnchantmentHelper.processBlockExperience(serverLevel, player.getMainHandItem(), xp);
+                if (finalXp > 0) ExperienceOrb.award(serverLevel, pos.getCenter(), finalXp);
             }
         });
     }

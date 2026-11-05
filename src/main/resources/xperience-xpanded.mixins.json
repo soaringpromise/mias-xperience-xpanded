@@ -7,11 +7,15 @@
     "common.AnvilMenuMixin",
     "common.ExperienceBottleMixin",
     "common.ExperienceOrbMixin",
+    "common.FishingHookMixin",
+    "common.FortuneXpMixin",
     "common.GrindstoneMenuMixin",
     "common.GrindstoneResultSlotMixin",
+    "common.LootingXpMixin",
     "common.PlayerMixin",
     "common.PotionBrewingMixin",
-    "common.ServerPlayerMixin"
+    "common.ServerPlayerMixin",
+    "common.SheepMixin"
   ],
   "client": [
     "client.AnvilScreenMixin"

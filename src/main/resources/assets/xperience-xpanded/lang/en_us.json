@@ -27,6 +27,10 @@
   "xperience-xpanded.config.xpFromBreakingMatureCrops.desc": "Grants experience when breaking fully grown crops, including Nether Wart.",
   "xperience-xpanded.config.xpPerMatureCrop": "XP Per Mature Crop",
   "xperience-xpanded.config.xpPerMatureCrop.desc": "The amount of experience awarded for breaking a fully grown crop.",
+  "xperience-xpanded.config.shearingGrantsXp": "XP from Shearing",
+  "xperience-xpanded.config.shearingGrantsXp.desc": "Grants experience when successfully shearing an adult sheep.",
+  "xperience-xpanded.config.xpPerShearedSheep": "XP Per Sheared Sheep",
+  "xperience-xpanded.config.xpPerShearedSheep.desc": "The amount of experience awarded for shearing a sheep.",
 
   "xperience-xpanded.config.allowXpBottleBrewing": "Brewable Bottles o' Enchanting",
   "xperience-xpanded.config.allowXpBottleBrewing.desc": "Allows Bottles o' Enchanting to be obtained through brewing.",
@@ -47,6 +51,14 @@
   "xperience-xpanded.config.allowGrindstoneCurseRemoval.desc": "Allows Grindstones to remove curse enchantments from items.",
   "xperience-xpanded.config.grindstoneCurseXpMultiplier": "Curse Removal XP Multiplier",
   "xperience-xpanded.config.grindstoneCurseXpMultiplier.desc": "Additional XP multiplier applied when removing curses. A value of 0.5 reduces the total reward by 50%.",
+
+  "xperience-xpanded.config.enchantmentBuffs": "Enchantment Buffs",
+  "xperience-xpanded.config.fortuneBoostsXp": "Fortune XP Bonus",
+  "xperience-xpanded.config.fortuneBoostsXp.desc": "Increases XP from mining and harvesting by 20% per Fortune level.",
+  "xperience-xpanded.config.lootingBoostsXp": "Looting XP Bonus",
+  "xperience-xpanded.config.lootingBoostsXp.desc": "Increases experience dropped by mobs by 20% per Looting level.",
+  "xperience-xpanded.config.luckOfTheSeaBoostsXp": "Luck of the Sea XP Bonus",
+  "xperience-xpanded.config.luckOfTheSeaBoostsXp.desc": "Increases experience earned from fishing by 20% per Luck of the Sea level.",
 
   "xperience-xpanded.config.mendingPrefersHighestDamagePercent": "Smart Mending",
   "xperience-xpanded.config.mendingPrefersHighestDamagePercent.desc": "Prioritizes repairing the Mending-equipped item with the highest percentage of missing durability.",

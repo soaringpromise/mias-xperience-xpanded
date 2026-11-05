@@ -31,8 +31,10 @@ public class GameplayConfig extends Config {
     public ValidatedBoolean xpFromBreakingMatureCrops = new ValidatedBoolean(true);
     public ValidatedInt xpPerMatureCrop = new ValidatedInt(3, 10, 1);
     public ValidatedBoolean xpFromBreakingAmethystClusters = new ValidatedBoolean(true);
-    @ConfigGroup.Pop
     public ValidatedInt xpPerAmethystCluster = new ValidatedInt(2, 10, 1);
+    public ValidatedBoolean shearingGrantsXp = new ValidatedBoolean(true);
+    @ConfigGroup.Pop
+    public ValidatedInt xpPerShearedSheep = new ValidatedInt(2, 10, 1);
 
 
     // Bottles o' Enchanting
@@ -59,6 +61,15 @@ public class GameplayConfig extends Config {
     public ValidatedBoolean allowGrindstoneCurseRemoval = new ValidatedBoolean(true);
     @ConfigGroup.Pop
     public ValidatedDouble grindstoneCurseXpMultiplier = new ValidatedDouble(0.5, 1.0, 0.0);
+
+
+    // Enchantment Buffs
+    public ConfigGroup enchantmentBuffs = new ConfigGroup("enchantmentBuffs");
+
+    public ValidatedBoolean fortuneBoostsXp = new ValidatedBoolean(true);
+    public ValidatedBoolean lootingBoostsXp = new ValidatedBoolean(true);
+    @ConfigGroup.Pop
+    public ValidatedBoolean luckOfTheSeaBoostsXp = new ValidatedBoolean(true);
 
 
     // Experience Quality of Life

@@ -27,6 +27,10 @@
   "xperience-xpanded.config.xpFromBreakingMatureCrops.desc": "Otorga experiencia al romper cultivos completamente desarrollados, incluidas las verrugas del Nether.",
   "xperience-xpanded.config.xpPerMatureCrop": "Experiencia por cultivo",
   "xperience-xpanded.config.xpPerMatureCrop.desc": "Cantidad de experiencia obtenida al romper un cultivo completamente desarrollado.",
+  "xperience-xpanded.config.shearingGrantsXp": "Experiencia al esquilar",
+  "xperience-xpanded.config.shearingGrantsXp.desc": "Otorga experiencia al esquilar correctamente una oveja adulta.",
+  "xperience-xpanded.config.xpPerShearedSheep": "Experiencia por oveja esquilada",
+  "xperience-xpanded.config.xpPerShearedSheep.desc": "Cantidad de experiencia obtenida al esquilar una oveja.",
 
   "xperience-xpanded.config.allowXpBottleBrewing": "Preparar frascos con experiencia",
   "xperience-xpanded.config.allowXpBottleBrewing.desc": "Permite obtener frascos con experiencia mediante la preparación de pociones.",
@@ -47,6 +51,14 @@
   "xperience-xpanded.config.allowGrindstoneCurseRemoval.desc": "Permite eliminar encantamientos de maldición de los objetos utilizando una afiladora.",
   "xperience-xpanded.config.grindstoneCurseXpMultiplier": "Multiplicador de experiencia al eliminar maldiciones",
   "xperience-xpanded.config.grindstoneCurseXpMultiplier.desc": "Multiplicador adicional aplicado al eliminar maldiciones. Un valor de 0,5 reduce la recompensa total de experiencia en un 50 %.",
+
+  "xperience-xpanded.config.enchantmentBuffs": "Mejoras de encantamientos",
+  "xperience-xpanded.config.fortuneBoostsXp": "Bonificación de XP por Fortuna",
+  "xperience-xpanded.config.fortuneBoostsXp.desc": "Aumenta un 20 % por nivel de Fortuna la experiencia obtenida al minar y cosechar.",
+  "xperience-xpanded.config.lootingBoostsXp": "Bonificación de XP por Botín",
+  "xperience-xpanded.config.lootingBoostsXp.desc": "Aumenta un 20 % por nivel de Botín la experiencia obtenida al derrotar criaturas.",
+  "xperience-xpanded.config.luckOfTheSeaBoostsXp": "Bonificación de XP por Suerte Marina",
+  "xperience-xpanded.config.luckOfTheSeaBoostsXp.desc": "Aumenta un 20 % por nivel de Suerte Marina la experiencia obtenida al pescar.",
 
   "xperience-xpanded.config.mendingPrefersHighestDamagePercent": "Reparación inteligente",
   "xperience-xpanded.config.mendingPrefersHighestDamagePercent.desc": "Prioriza la reparación del objeto con el encantamiento Reparación que tenga el mayor porcentaje de durabilidad perdida.",
