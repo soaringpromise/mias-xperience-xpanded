@@ -65,13 +65,13 @@
   "xperience-xpanded.config.xpOrbAttractionRange": "Alcance de atracción de experiencia",
   "xperience-xpanded.config.xpOrbAttractionRange.desc": "Distancia máxima, en bloques, desde la que los orbes de experiencia son atraídos hacia los jugadores.",
 
-  "xperience-xpanded.config.enableEchoShardCrafting": "Fragmentos de eco fabricables",
-  "xperience-xpanded.config.enableEchoShardCrafting.desc": "Habilita una receta de fabricación para los fragmentos de eco, convirtiéndolos en un recurso renovable.",
+  "xperience-xpanded.config.enableEchoShardCrafting": "Fragmentos resonantes fabricables",
+  "xperience-xpanded.config.enableEchoShardCrafting.desc": "Habilita una receta de fabricación para los fragmentos resonantes, convirtiéndolos en un recurso renovable.",
   "xperience-xpanded.config.allowSilkTouchBuddingAmethyst": "Amatista en ciernes con Toque de Seda",
   "xperience-xpanded.config.allowSilkTouchBuddingAmethyst.desc": "Permite obtener bloques de amatista en ciernes utilizando una herramienta con el encantamiento Toque de Seda.",
 
-  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards": "Intercambio de fragmentos de eco",
-  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Reemplaza el intercambio de frascos con experiencia de los clérigos de nivel maestro por uno de fragmentos de eco.",
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards": "Intercambio de fragmentos resonantes",
+  "xperience-xpanded.config.replaceClericXpBottleTradeWithEchoShards.desc": "Reemplaza el intercambio de frascos con experiencia de los clérigos de nivel maestro por uno de fragmentos resonantes.",
 
   "effect.xperience-xpanded.wisdom": "Sabiduría",
   "effect.xperience-xpanded.wisdom.description": "Sientes cómo se expande tu mente",

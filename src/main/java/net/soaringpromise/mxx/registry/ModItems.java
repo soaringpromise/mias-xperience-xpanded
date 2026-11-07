@@ -1,12 +1,14 @@
-
 package net.soaringpromise.mxx.registry;
 
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.component.Consumables;
 import net.soaringpromise.mxx.Mxx;
@@ -34,7 +36,13 @@ public final class ModItems {
                     )
             );
 
-    public static void register() {}
+    public static void register() {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
+                .register(output -> output.insertAfter(
+                        Items.EXPERIENCE_BOTTLE,
+                        CATALYZED_EXPERIENCE_BOTTLE
+                ));
+    }
 
     private ModItems() {}
 }

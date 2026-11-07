@@ -14,8 +14,8 @@
 		"main": [
 			"net.soaringpromise.mxx.Mxx"
 		],
-		"fabric-datagen": [
-			"net.soaringpromise.mxx.MxxDataGenerator"
+		"jei_mod_plugin": [
+			"net.soaringpromise.mxx.compat.jei.MxxJeiPlugin"
 		]
 	},
 	"mixins": [
