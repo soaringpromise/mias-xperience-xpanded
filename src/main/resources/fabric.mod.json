@@ -8,7 +8,7 @@
 		"soaringpromise (Mia)"
 	],
 	"license": "MIT",
-	"icon": "assets/xperience-xpanded/icon.png",
+	"icon": "assets/xperience-xpanded/xperience-xpanded-512x.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
